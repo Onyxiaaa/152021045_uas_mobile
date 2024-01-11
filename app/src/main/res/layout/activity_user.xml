@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/grey"
+    tools:context=".user">
+
+    <ImageView
+        android:id="@+id/img_bmkg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:src="@drawable/bmkg"/>
+
+    <TextView
+        android:id="@+id/text_gempa"
+        android:layout_below="@id/img_bmkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA Relawan di Indonesia"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/mont"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textAlignment="center"/>
+    <ListView
+        android:id="@+id/list_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/text_gempa"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>

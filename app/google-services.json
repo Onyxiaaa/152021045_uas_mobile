@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745110109011",
+    "project_id": "uas-iot-171a3",
+    "storage_bucket": "uas-iot-171a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745110109011:android:957866844855de770bffa6",
+        "android_client_info": {
+          "package_name": "com.example.uas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-shobcDrFD-ESxrZX45jFZr6P4kqoP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
